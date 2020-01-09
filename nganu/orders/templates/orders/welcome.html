@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <a href="{% url "menu_view" %}">
+            <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+            <h3>
+                Menu
+            </h3>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url "user_orders_view" %}">
+            <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+            <h3>
+                Order
+            </h3>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url "cart_view" %}">
+            <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+            <h3>
+                Keranjang
+            </h3>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

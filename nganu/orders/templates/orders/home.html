@@ -1,0 +1,166 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block body %}
+    <!-- Start Top Search -->
+    <div class="top-search">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Search -->
+
+    <!-- Start Slider -->
+    <div id="slides-shop" class="cover-slides">
+        <ul class="slides-container">
+            <li class="text-center">
+                <img src="{% static 'images/banner-01.png' %}" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Welcome To <br> HHR Coffee</strong></h1>
+                            <p class="m-b-40">Hidup ini seperti secangkir kopi dimana pahit dan manis bertemu dalam kehangatan, <br> selalu membuatku ingin menikmatimu kembali.</p>
+                            <p><a class="btn hvr-hover" href="menu.html">Order Now!</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="{% static 'images/banner-02.png' %}" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Welcome To <br> HHR Coffee</strong></h1>
+                            <p class="m-b-40">Hidup ini seperti secangkir kopi dimana pahit dan manis bertemu dalam kehangatan, <br> selalu membuatku ingin menikmatimu kembali.</p>
+                            <p><a class="btn hvr-hover" href="gallery.html">Order Now!</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="{% static 'images/banner-03.png' %}" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20"><strong>Welcome To <br> HHR Coffee</strong></h1>
+                            <p class="m-b-40">Hidup ini seperti secangkir kopi dimana pahit dan manis bertemu dalam kehangatan, <br> selalu membuatku ingin menikmatimu kembali.</p>
+                            <p><a class="btn hvr-hover" href="#">Order Now!</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="slides-navigation">
+            <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <!-- End Slider -->
+
+    <!-- Start Categories  -->
+    <div class="categories-shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="{% static 'images/categories_img_01.jpg" alt="" />
+                        <a class="btn hvr-hover" href="menu.html">Minuman</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="{% static 'images/categories_img_02.jpg" alt="" />
+                        <a class="btn hvr-hover" href="#">Makanan</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="{% static 'images/categories_img_03.jpg" alt="" />
+                        <a class="btn hvr-hover" href="#">Snack</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Categories -->
+
+    <!-- Start Blog  -->
+    <div class="latest-blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Blog</h1>
+                        <p>Sepolos kopi hitam tanpa gula, pekatnya ruh adalah ampas yang menyatu dengan kalimat..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="{% static 'images/blog.png' %}" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h3>Kafein dapat meningkatkan performa fisik secara drastis</h3>
+                                <p>Selain membantu pembakaran lemak, kafein juga meningkatkan level adrenalin di dalam darah. Adrenalin membuat tubuh kita siap untuk digunakan secara intense. Kafein membuat sel lemak (fat cells) menghancurkan lemak tubuh,
+                                    yang kemudian dilepaskan ke dalam darah sebagai energi. Karena efek ini, tidak mengejutkan bahwa kafein dapat meningkatkan performa fisik sampai rata-rata 11–12%. Oleh karena itu, sangat masuk akal apabila kita meminum
+                                    segelas kopi sekitar setengah jam sebelum berolah raga.</p>
+                            </div>
+                            <ul class="option-blog">
+                                <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#"><i class="far fa-comments"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="{% static 'images/kopi3.png' %}" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h3>Kopi dapat mengurangi resiko diabetes tipe 2</h3>
+                                <p>Diabetes tipe 2 adalah masalah kesehatan yang sangat besar. Saat ini ada sekitar 300 juta penderita diabetes di seluruh dunia. Penelitian menunjukan bahwa resiko para penikmat kopi untuk terkena diabetes tipe 2 adalah 23–50%
+                                    lebih kecil dibandingkan dengan orang-orang yang tidak meminum kopi. Bahkan salah satu penelitian menunjukan penurunan sebesar 67%. Menurut suatu review dari 18 hasil penelitian dengan total 457.922 peserta, setiap
+                                    gelas kopi setara dengan 7% penurunan resiko terkena diabetes tipe 2.</p>
+                            </div>
+                            <ul class="option-blog">
+                                <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#"><i class="far fa-comments"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="{% static 'images/banner-01.png' %}" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h3>Ngopi Pagi Kurangi Pegal di Kantor</h3>
+                                <p>Secangkir kopi di pagi hari bukan hanya efektif sebagai pembangkit semangat, namun juga bisa mengurangi rasa pegal yang dipicu oleh kebanyakan duduk di kantor. Selain itu kebiasaan minum kopi juga bisa menurunkan rasa nyeri
+                                    di persendian. Menurut penelitian manfaat tersebut timbul karena kafein akan merangsang reseptor yang bertugas menahan rasa sakit. Walau para peminum kopi dan yang bukan tetap merasakan pegal di bagian tubuhnya selama
+                                    bekerja, namun kelompok peminum kopi mengaku rasa pegal di persendian dirasa lebih ringan.</p>
+                            </div>
+                            <ul class="option-blog">
+                                <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#"><i class="far fa-comments"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Blog  -->
+    {% endblock %}
